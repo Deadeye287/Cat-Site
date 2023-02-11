@@ -22,11 +22,11 @@ if (currentPage.includes('index.html')) {
   link2.classList.add('active');
 } else if (currentPage.includes('behavior.html')) {
   link3.classList.add('active');
-} else if (currentPage.includes('other.html')) {
-  link4.classList.add('active');
 } else if (currentPage.includes('life_health.html')) {
-    link4.classList.add('active');
-}
+  link4.classList.add('active');
+} else if (currentPage.includes('other.html')) {
+  link5.classList.add('active');
+} 
 
 // Get the modal
 var modal = document.getElementById("modal");
